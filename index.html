@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Video Player</title>
+    <link rel="stylesheet" href="stayl.css">
+</head>
+<body>
+    <div class="video-container">
+        <iframe id="video1" width="914" height="514" src="https://www.youtube.com/embed/seO0xeS-nzs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe id="video2" width="914" height="514" src="https://www.youtube.com/embed/g_WVSozgbVM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe id="video3" width="907" height="514" src="https://www.youtube.com/embed/kUt7It2bAjU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe id="video4" width="914" height="514" src="https://www.youtube.com/embed/iVCEVJOW6CY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <div class="controls">
+        <button onclick="playVideo('video1')">Play Video 1</button>
+        <button onclick="playVideo('video2')">Play Video 2</button>
+        <button onclick="playVideo('video3')">Play Video 3</button>
+        <button onclick="playVideo('video4')">Play Video 4</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
