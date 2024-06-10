@@ -14,10 +14,16 @@
         <iframe id="video4" width="914" height="514" src="https://www.youtube.com/embed/iVCEVJOW6CY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
     <div class="controls">
-        <button onclick="playVideo('video1')">Play Video 1</button>
-        <button onclick="playVideo('video2')">Play Video 2</button>
-        <button onclick="playVideo('video3')">Play Video 3</button>
-        <button onclick="playVideo('video4')">Play Video 4</button>
+        <button onclick="prevVideo()">Previous</button>
+        <button onclick="nextVideo()">Next</button>
+        <button onclick="showVideoList()">Video List</button>
+        <button onclick="shuffleVideo()">Shuffle</button>
+    </div>
+    <div id="video-list" class="video-list">
+        <button onclick="playVideo('video1')">Video 1</button>
+        <button onclick="playVideo('video2')">Video 2</button>
+        <button onclick="playVideo('video3')">Video 3</button>
+        <button onclick="playVideo('video4')">Video 4</button>
     </div>
     <script src="app.js"></script>
 </body>
